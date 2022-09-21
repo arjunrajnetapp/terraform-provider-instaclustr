@@ -46,6 +46,6 @@ The following terms are used to describe attributes in the schema of this resour
 ## Import
 This resource can be imported using the `terraform import` command as follows:
 ```
-terraform import instaclustr_cluster_network_firewall_rule_v2.<resource-name> "<resource-id>"
+terraform import instaclustr_cluster_network_firewall_rule_v2.[resource-name] "[resource-id]"
 ```
-`<resource-id>` is the unique identifier for this resource matching the value of the `id` attribute defined in the root schema above.
+`[resource-id]` is the unique identifier for this resource matching the value of the `id` attribute defined in the root schema above.
